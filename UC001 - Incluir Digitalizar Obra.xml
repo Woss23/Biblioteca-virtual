@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="UC001 - Incluir Digitalizar Obra" id="uc001_digitalizar_obra">
+    <mxGraphModel dx="1414" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titulo" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Helvetica;fontSize=16;fontStyle=1;" value="UC001 - Incluir / Digitalizar Obra" vertex="1">
+          <mxGeometry height="38" width="520" x="153" y="47" as="geometry" />
+        </mxCell>
+        <mxCell id="nome_bibliotecario" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;" value="Bibliotecário" vertex="1">
+          <mxGeometry height="25" width="116" x="105" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="nome_sistema" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;" value="Biblioteca Digital" vertex="1">
+          <mxGeometry height="25" width="140" x="555" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="linha_bibliotecario" edge="1" parent="1" style="endArrow=none;startArrow=none;dashed=1;dashPattern=4 4;strokeColor=#777777;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="163" y="230" as="sourcePoint" />
+            <mxPoint x="163" y="818" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="linha_sistema" edge="1" parent="1" style="endArrow=none;startArrow=none;dashed=1;dashPattern=4 4;strokeColor=#777777;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624" y="230" as="sourcePoint" />
+            <mxPoint x="624" y="818" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mensagem_1" edge="1" parent="1" style="html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#ffffff;" value="1. Acessar incluir / digitalizar obra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+            <mxPoint x="163" y="284" as="sourcePoint" />
+            <mxPoint x="624" y="284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mensagem_2" edge="1" parent="1" style="html=1;rounded=0;endArrow=open;endFill=0;dashed=1;strokeWidth=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#ffffff;" value="2. Exibir formulário de cadastro">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+            <mxPoint x="624" y="376" as="sourcePoint" />
+            <mxPoint x="163" y="376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mensagem_3" edge="1" parent="1" style="html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#ffffff;" value="3. Informar dados da obra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+            <mxPoint x="163" y="468" as="sourcePoint" />
+            <mxPoint x="624" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mensagem_4" edge="1" parent="1" style="html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#ffffff;" value="4. Adicionar arquivo digitalizado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+            <mxPoint x="163" y="560" as="sourcePoint" />
+            <mxPoint x="624" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mensagem_5" edge="1" parent="1" style="html=1;rounded=0;endArrow=block;endFill=1;strokeWidth=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#ffffff;" value="5. Confirmar inclusão da obra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+            <mxPoint x="163" y="652" as="sourcePoint" />
+            <mxPoint x="624" y="652" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mensagem_6" edge="1" parent="1" style="html=1;rounded=0;endArrow=open;endFill=0;dashed=1;strokeWidth=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=#ffffff;" value="6. Informar inclusão realizada com sucesso">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+            <mxPoint x="624" y="744" as="sourcePoint" />
+            <mxPoint x="163" y="744" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7LBoGjGZIHBiBNDj-Mu-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="610" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7LBoGjGZIHBiBNDj-Mu-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="60" width="30" x="148" y="144" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
